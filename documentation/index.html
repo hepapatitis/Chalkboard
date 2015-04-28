@@ -1,0 +1,416 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Firely Parallax Responsive Coming Soon Template Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+	
+	<!-- Syntax Highlighter -->
+	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shCore.css" media="all">
+	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shThemeDefault.css" media="all">
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Firely Parallax Responsive Coming Soon Template&rdquo; Documentation v1.1</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Firely Parallax Responsive Coming Soon Template&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 6/30/2014<br>
+					By: Hepa - Memories Dust<br>
+					Email: <a href="mailto:support@memoriesdust.com">support@memoriesdust.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email me at <a href="mailto:support@memoriesdust.com?subject=Firely Theme Support">support@memoriesdust.com</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#introduction">Introduction</a></li>
+			<li><a href="#htmlStructure">HTML Structure</a></li>
+			<li><a href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a href="#javascript">JavaScripts</a></li>
+			<li><a href="#fontssused">Fonts used</a></li>
+			<li><a href="#faqs">FAQs</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="introduction"><strong>A) Introduction</strong> - <a href="#toc">top</a></h3>
+		
+		<p>
+			Thank you so much for purchasing <strong>Firely Parallax Responsive Coming Soon Template</strong>.
+			Please feel free to contact us if you have question or problem about this template.
+			We will do our best to provide you with the best possible assistance.
+		</p>
+		
+		<hr>
+		
+		<h3 id="htmlStructure"><strong>B) HTML Structure</strong> - <a href="#toc">top</a></h3>
+		
+		<h4>HTML Files</h4>
+		<ul>
+			<li><em>index.html</em> - Home Page</li>
+		</ul>
+		<p>The coming soon template has been managed with different folders based on the styles. Therefore you can grab any folder and use it immediately.</p>
+		
+		<h4>Non-Bootstrap General HTML structure</h4>
+		<p>The general template structure is the same for every folder. Here is the general structure.</p>
+		
+		
+<pre class="brush: html">
+<!-- Beginning -->
+<div id="modal-window">
+
+	<div class="container">
+	
+		<!-- Header & Logo -->
+		<header id="header"> 
+			<div id="logo"><a href="#">Firely Cooming Soon</a></div>
+		</header>
+
+		<!-- Modal Open -->
+		<a id="modal-open"><i class="fa fa-bars"></i></a>
+		
+		<!-- Main Title (Rotating Title -->
+		<div id="rotate">
+			<div class="rotate"><h1>Title #1 here</h1></div>
+			<div class="rotate"><h1>Title #2 here</h1></div>
+			<div class="rotate"><h1>Title #3 here</h1></div>
+		</div>
+
+		<!-- Timer -->
+		<div id="clock"></div>  
+		
+		<!-- Newsletter -->
+		<div id="newsletter">
+			...
+		</div>
+		
+		<!-- Social Links -->
+		<div class="social">
+			...
+		</div>
+	
+	</div>
+	
+</div>
+
+<!-- Modal Window -->
+<div id="modal">
+	<div class="container">
+		
+		...
+		
+		<!-- Contact Form -->
+		<div id="contact-form" class="one">
+			...
+		</div>
+	</div>
+</div>
+
+<!-- Preload -->
+<div id="preload">
+	...
+</div>
+
+<!-- Background overlay -->
+<ul id="scene" class="scene unselectable">
+	...
+</ul>
+
+</pre>
+		
+		<h4>Bootstrap General HTML structure</h4>
+		<p>The general template structure is the same for every folder. Here is the general structure.</p>
+		
+		
+<pre class="brush: html">
+<!-- Beginning -->
+<div id="modal-window">
+
+	<div class="cs-container">
+	
+		<!-- Header & Logo -->
+		<header id="header"> 
+			<div id="logo"><a href="#">Firely Cooming Soon</a></div>
+		</header>
+
+		<!-- Modal Open -->
+		<a id="modal-open"><i class="fa fa-bars"></i></a>
+		
+		<!-- Main Title (Rotating Title -->
+		<div id="rotate">
+			<div class="rotate"><h1>Title #1 here</h1></div>
+			<div class="rotate"><h1>Title #2 here</h1></div>
+			<div class="rotate"><h1>Title #3 here</h1></div>
+		</div>
+
+		<!-- Timer -->
+		<div id="clock"></div>  
+		
+		<!-- Newsletter -->
+		<div id="newsletter">
+			...
+		</div>
+		
+		<!-- Social Links -->
+		<div class="social">
+			...
+		</div>
+	
+	</div>
+	
+</div>
+
+<!-- Modal Window -->
+<div id="modal">
+	<div class="container">
+		
+		...
+		
+		<!-- Contact Form -->
+		<div id="contact-form" class="one">
+			...
+		</div>
+	</div>
+</div>
+
+<!-- Preload -->
+<div id="preload">
+	...
+</div>
+
+<!-- Background overlay -->
+<ul id="scene" class="scene unselectable">
+	...
+</ul>
+
+</pre>
+		
+		<hr>
+
+		<h3 id="cssFiles"><strong>C) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+		
+		<h4>Styles</h4>
+		
+<pre class="brush: html">
+<!-- CSS -->
+<link rel="stylesheet" href="css/YTPlayer.css" /> <!-- Only Available for Video Background Style -->
+<link rel="stylesheet" href="css/font-awesome.css" />
+<link rel="stylesheet" href="css/style.css" />
+</pre>
+
+		<p>There is only one main CSS file in this theme. Please use custom.css to override the existing CSS file.</p>
+
+		<p>Lets take a look closely at our stylesheet files.</p>
+		
+		<h5>bootstrap.min.css <small style="color:gray">(Bootstrap ONLY)</small></h5>
+		<p>Base styles for Bootstrap 3.2.0.</p>
+		
+		<h5>font-awesome.min.css</h5>
+		<p>Base styles for FontAwesome icon fonts.</p>
+		
+		<h5>style.css</h5>
+		<p>Main CSS that includes Reset CSS by Meyer.</p>
+		
+		<h5>YTPlayer.css <small style="color:gray">(Video Background ONLY)</small></h5>
+		<p>CSS file for YTPlayer that is only used for <strong>Video Background</strong> style. Be sure to include this file when using Video Background.</p>
+		
+		<h5>custom.css</h5>
+		<p>Please put all your custom changes to this file. <strong>This CSS has to be loaded last to override perfectly.</strong></p>
+		
+		<hr>
+		
+		<h3 id="javascript"><strong>D) JavaScript</strong> - <a href="#toc">top</a></h3>
+		
+		<p>This theme imports 11 Javascript files.</p>
+		
+<pre class="brush: html">
+<!-- Javascript Files
+================================================== -->
+<!-- initialize jQuery Library -->
+<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
+<script src="js/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
+<!-- Default Bootstrap JS -->
+<script src="js/bootstrap.min.js"></script>
+<!-- WOW.js -->
+<script src="js/wow.min.js"></script>
+<!-- Isotope -->
+<script src="js/jquery.isotope.min.js"></script>
+<!-- jQuery Validate -->
+<script src="js/jquery.validate.min.js"></script>
+<!-- Superslides -->
+<script src="js/jquery.superslides.min.js"></script>
+<!-- jQuery Knob -->
+<script src="js/jquery.knob.js"></script>
+<!-- Color Switcher JS -->
+<script src="js/color_switcher.js"></script>
+<!-- Firely Main JS -->
+<script src="js/main.js"></script>
+
+<!-- Custom -->
+<script src="js/custom.js"></script>
+</pre>
+
+		<p>This template uses 7 - 8 JS files. Video Background style requires extra file to run Youtube video. Lets take a look closely at our javascript files.</p>
+		
+		<h5>jquery-1.11.0.min.js</h5>
+		<p><a href="http://jquery.com/">jQuery</a> is a multi-browser JavaScript library designed to simplify the client-side scripting of HTML.</p>
+		
+		<h5>bootstrap.min.js <small style="color:gray">(Bootstrap ONLY)</small></h5>
+		<p>Base javascript for Bootstrap 3.2.0.</p>
+		
+		<h5>jquery-firefly-0.2.js</h5>
+		<p>jQuery plug-in to create a firefly effect. <a href="https://github.com/motyar/firefly">Visit Website</a></p>
+		
+		<h5>jquery.parallax.min.js</h5>
+		<p>Parallax Engine that reacts to the orientation of a smart device. Where no gyroscope or motion detection hardware is available, the position of the cursor is used instead. <a href="http://matthew.wagerfield.com/parallax/">Visit Website</a></p>
+		
+		<h5>jquery.plugin.min.js &amp; jquery.countdown.min.js</h5>
+		<p>A jQuery plugin that sets a div or span to show a countdown to a given time. <a href="http://keith-wood.name/countdown.html">Visit Website</a></p>
+		
+		<h5>jquery.placeholder.min.js</h5>
+		<p>A jQuery plugin that enables HTML5 placeholder behavior for browsers that aren’t trying hard enough yet <a href="https://github.com/mathiasbynens/jquery-placeholder">Visit Website</a></p>
+		
+		<h5>jquery.mb.YTPlayer.js <small style="color:gray">(Video Background ONLY)</small></h5>
+		<p>An open source jQuery component to easily build your custom Youtube® player or to use a Youtube® video as background for your page. <a href="https://github.com/pupunzi/jquery.mb.YTPlayer">Visit Website</a></p>
+		
+		<h5>rotator.js</h5>
+		<p>jQuery plugin that .... rotates stuff. It's a very simple way to rotate information on a page. <a href="https://github.com/josephtyler/rotator">Visit Website</a></p>
+		
+		<h5>main.js</h5>
+		<p>We put initialisation of many plugins here.</p>
+		
+		<h5>custom.js</h5>
+		<p>Your custom JavaScript here.</p>
+		
+		<hr>
+		
+		<h3 id="fontssused"><strong>E) Fonts Used</strong> - <a href="#toc">top</a></h3>
+		<p>This template uses only one type of fonts.</p>
+		
+		<ol>
+			<li><em><a href="http://www.google.com/fonts/specimen/Roboto">Roboto</a></em> - Google Web Font</li>
+		</ol>
+		
+		
+		<hr>
+		
+		<h3 id="faqs"><strong>F) FAQs</strong> - <a href="#toc">top</a></h3>
+		
+		<h4><strong>How to work with contact form?</strong></h4>
+		<p>This template contains fully working contact form. All you need is replace you actual e-mail address. Open the <strong>send-email.php</strong> file that is located in the root with any text editor and replace all instances of "<strong>your-email@yourdomain.com</strong>" with your email address in the entire file using the <strong>Find and Replace</strong> tool (usually the Ctrl+H hot key).</p>
+		
+		<h4><strong>This coming soon page is laggy, why is that?</strong></h4>
+		<p>Parallax and FireFly are intensive plugins that can take a lot of memory resources, especially screen with big resolution. If it's too much, you can remove FireFly js to make it less laggy.</p>
+		
+		<h4><strong>What should I do to use Youtube video as background?</strong></h4>
+		<p>First of all, make sure that you include <strong>YTPlayer.css</strong> and <strong>jquery.mb.YTPlayer.js</strong> into <strong>index.html</strong>. Those files are not included in other styles such as layered-parallax, single-background, and multiple-background.</p>
+		<p>After that insert the following HTML tag in <strong>index.html</strong>.</p>
+<pre class="brush: html">
+	<a id="bgndVideo" data-property="{videoURL:'https://www.youtube.com/watch?v=plW58zpcmpk',containment:'body',autoPlay:true, mute:true, startAt:0,opacity:1,ratio:'4/3', addRaster:true}">My video</a>
+</pre>
+		<p>Your <strong>index.html</strong> should be like this:</p>
+<pre class="brush: html">
+	...
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/YTPlayer.css" />
+	
+	...
+	
+	<a id="bgndVideo" data-property="{videoURL:'https://www.youtube.com/watch?v=plW58zpcmpk',containment:'body',autoPlay:true, mute:true, startAt:0,opacity:1,ratio:'4/3', addRaster:true}">My video</a>
+	
+	...
+	
+	<!-- Included JS Files -->
+	<script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
+	
+	...
+</pre>
+		<p>To change the youtube video, simply change the link in <strong>videoURL</strong> to any YouTube URL that you want.</p>
+		<p>Now open <strong>js/main.js</strong> and make sure to include this line:</p>
+<pre class="brush: js">
+	jQuery("#bgndVideo").mb_YTPlayer();
+</pre>		
+		<p>And voila! It's done.</p>
+		
+		<h4><strong>The video background is not displaying anything. What should I do?</strong></h4>
+		<p>Video Background will work when it's opened from a webserver (in this case, your webhosting), not your local machine. You can use XAMPP to create a local webserver.</p>
+		
+		<h4><strong>How do I change FireFly images or total number of FireFly?</strong></h4>
+		<p>FireFly uses PNG image which can be found in <strong>js/main.js</strong>. Below is the sneak peek of <strong>main.js</strong> for FireFly.</p>
+<pre class="brush: js">
+/*----------------------------------------------------------------------------*/
+/*	7.	Firefly
+/*----------------------------------------------------------------------------*/	
+	$.firefly({
+		images : ['images/in-the-depths/fly1by1.png', 'images/in-the-depths/fly2by2.png', 'images/in-the-depths/fly3by3.png'],
+		total : 30,
+		on: '.parallax-bg'
+	});
+</pre>
+		<p>To change the FireFly picture, simply change the images with the image that you desire.<br /> To change the total number of FireFly, simply change the <strong>total</strong> value.</p>
+		<hr>
+		
+		<h3 id="credits"><strong>G) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+		<ul>
+			<li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+			<li><a href="http://meyerweb.com/eric/tools/css/reset/">CSS Reset by Meyer</a></li>
+			<li><a href="http://jquery.com/">jQuery</a></li>
+			<li><a href="http://fortawesome.github.com/Font-Awesome/">FontAwesome</a></li>
+			<li><a href="https://github.com/motyar/firefly">FireFly</a></li>
+			<li><a href="http://matthew.wagerfield.com/parallax/">Parallax.js</a></li>
+			<li><a href="http://keith-wood.name/countdown.html">jQuery Countdown</a></li>
+			<li><a href="https://github.com/mathiasbynens/jquery-placeholder">jQuery Placeholder</a></li>
+			<li><a href="https://github.com/pupunzi/jquery.mb.YTPlayer">jQuery MB YTPlayer</a></li>
+			<li><a href="https://github.com/josephtyler/rotator">Rotator.js</a></li>
+		</ul>
+		
+		<hr>
+		
+		<p>Once again, thank you so much for purchasing this theme. I'd be glad to help you if you have any questions or need any assitance regarding this theme. Feel free to email me at <a href="support@memoriesdust.com">support@memoriesdust.com</a> or use the support forum.</p> 
+		
+		<p class="append-bottom alt large"><strong>Hepa - Memories Dust</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+	
+	
+	<script type="text/javascript" src="syntax-highlighter/scripts/shCore.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushXml.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushCss.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushJScript.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushPhp.js"></script> 
+	<script type="text/javascript">
+    SyntaxHighlighter.all()
+	</script>
+</body>
+</html>
